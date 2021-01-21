@@ -28,9 +28,4 @@ describe('App Component', () => {
         expect(component.length).toBe(1);
     });
 
-    it('Should render appComponent without errors', () => {
-        const component = findByTestAttr(wrapper, 'appComponent');
-        expect(component.length).toBe(1);
-    });
-
 });
