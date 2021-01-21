@@ -1,4 +1,5 @@
 import App from "./App";
+
 import { shallow } from 'enzyme';
 import { findByTestAttr, testStore } from './../Utils';
 import React from 'react';
@@ -25,5 +26,6 @@ describe('App Component', () => {
     it('Should render without errors', () => {
         const component = findByTestAttr(wrapper, 'appComponent');
         expect(component.length).toBe(1);
-    })
+    });
+
 });
