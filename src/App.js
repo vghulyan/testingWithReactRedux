@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './component/header';
 import Headline from "./component/headline";
-import scss from './app.scss';
 
 function App() {
   return (
