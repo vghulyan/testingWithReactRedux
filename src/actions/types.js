@@ -1,3 +1,3 @@
 export const types = {
-  GET_EXCHANGE: 'getExchange'
+  GET_WALLET_MONEY: 'getWalletMoney'
 };

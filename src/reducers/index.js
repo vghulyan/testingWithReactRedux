@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import exchange from './exchange/reducer';
+import wallet from './wallet/reducer';
 
 export default combineReducers({
-    exchange
+    wallet
 })
