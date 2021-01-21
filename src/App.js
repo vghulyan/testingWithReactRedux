@@ -20,7 +20,7 @@ function App({ wallet, fetchWalletMoney }) {
     };
 
     return (
-        <div className="App">
+        <div className="App" data-test='appComponent'>
           <Header />
           <section className="main">
               <Headline header='Wallet' desc='Click the button to render wallet!' />
