@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 
 const SharedButton = ({buttonText, emitEvent}) => {
 
-    const submitEvent = () => {
+    const submitEvent = (e) => {
         if(emitEvent) {
-            emitEvent();
+            emitEvent(e);
         }
     }
     return (
-        <button onClick={submitEvent} data-test='buttonComponent'>
+        <button onClick={(e) => submitEvent(e)} data-test='buttonComponent'>
             {buttonText}
         </button>
     )
